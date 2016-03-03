@@ -75,11 +75,48 @@ public class AlamofireRSSParser: NSObject, NSXMLParserDelegate {
                 currentItem.title = self.currentString
             }
             
+            if (elementName == "description") {
+                currentItem.itemDescription = self.currentString
+            }
+            
+            if (elementName == "link") {
+                currentItem.link = self.currentString
+            }
+            
             if (elementName == "guid") {
                 currentItem.guid = self.currentString
             }
             
-            //if we're at the top level
+            if (elementName == "author") {
+                currentItem.author = self.currentString
+            }
+            
+            if (elementName == "comments") {
+                currentItem.comments = self.currentString
+            }
+            
+            if (elementName == "source") {
+                currentItem.source = self.currentString
+            }
+            
+            if (elementName == "pubDate") {
+                if let date = RSSDateFormatter.rfc822DateFormatter().dateFromString(self.currentString) {
+                    self.feed?.pubDate = date
+                } else if let date = RSSDateFormatter.rfc822DateFormatter2().dateFromString(self.currentString) {
+                    self.feed?.pubDate = date
+                }
+            }
+            
+            if (elementName == "published") {
+                if let date = RSSDateFormatter.publishedDateFormatter().dateFromString(self.currentString) {
+                    self.feed?.pubDate = date
+                } else if let date = RSSDateFormatter.publishedDateFormatter2().dateFromString(self.currentString) {
+                    self.feed?.pubDate = date
+                }
+            }
+            
+            
+        //if we're at the top level
         } else {
             if (elementName == "title") {
                 self.feed?.title = self.currentString

@@ -2,11 +2,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'AlamofireRSS_Example' do
-  #pod 'Alamofire'
   pod 'AlamofireRSS', :path => '../'
 end
 
 target 'AlamofireRSS_Tests' do
-  #pod 'Alamofire'
   pod 'AlamofireRSS', :path => '../'
 end

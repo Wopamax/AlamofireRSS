@@ -2,14 +2,14 @@
   "name": "AlamofireRSS",
   "version": "0.1.0",
   "summary": "An RSS parser plugin for Alamofire.",
-  "description": "An RSS parser plugin for Alamofire.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AlamofireRSS",
+  "description": "An RSS parser plugin for Alamofire.  Adds a \"responseRSS()\" responseHandler to Alamofire.",
+  "homepage": "https://github.com/AdeptusAstartes/AlamofireRSS",
   "license": "MIT",
   "authors": {
     "Don Angelillo": "dangelillo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AlamofireRSS.git",
+    "git": "https://github.com/AdeptusAstartes/AlamofireRSS.git",
     "tag": "0.1.0"
   },
   "platforms": {
