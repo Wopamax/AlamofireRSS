@@ -1,5 +1,3 @@
-# AlamofireRSS
-
 [![CI Status](http://img.shields.io/travis/Don Angelillo/AlamofireRSS.svg?style=flat)](https://travis-ci.org/Don Angelillo/AlamofireRSS)
 [![Version](https://img.shields.io/cocoapods/v/AlamofireRSS.svg?style=flat)](http://cocoapods.org/pods/AlamofireRSS)
 [![License](https://img.shields.io/cocoapods/l/AlamofireRSS.svg?style=flat)](http://cocoapods.org/pods/AlamofireRSS)
@@ -27,3 +25,4 @@ Don Angelillo, dangelillo@gmail.com
 ## License
 
 AlamofireRSS is available under the MIT license. See the LICENSE file for more info.
+
