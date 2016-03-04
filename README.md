@@ -1,4 +1,4 @@
-[![CI Status](http://img.shields.io/travis/Don Angelillo/AlamofireRSS.svg?style=flat)](https://travis-ci.org/Don Angelillo/AlamofireRSS)
+[![CI Status](http://img.shields.io/travis/AdeptusAstartes/AlamofireRSS.svg?style=flat)](https://travis-ci.org/AdeptusAstartes/AlamofireRSS)
 [![Version](https://img.shields.io/cocoapods/v/AlamofireRSS.svg?style=flat)](http://cocoapods.org/pods/AlamofireRSS)
 [![License](https://img.shields.io/cocoapods/l/AlamofireRSS.svg?style=flat)](http://cocoapods.org/pods/AlamofireRSS)
 [![Platform](https://img.shields.io/cocoapods/p/AlamofireRSS.svg?style=flat)](http://cocoapods.org/pods/AlamofireRSS)
