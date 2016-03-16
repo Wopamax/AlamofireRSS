@@ -9,20 +9,20 @@
 import Foundation
 
 public class RSSFeed: CustomStringConvertible {
-    var title: String? = nil
-    var link: String? = nil
-    var feedDescription: String? = nil
-    var pubDate: NSDate? = nil
-    var lastBuildDate: NSDate? = nil
-    var language: String? = nil
-    var copyright: String? = nil
-    var managingEditor: String? = nil
-    var webMaster: String? = nil
-    var generator: String? = nil
-    var docs: String? = nil
-    var ttl: NSNumber? = nil
+    public var title: String? = nil
+    public var link: String? = nil
+    public var feedDescription: String? = nil
+    public var pubDate: NSDate? = nil
+    public var lastBuildDate: NSDate? = nil
+    public var language: String? = nil
+    public var copyright: String? = nil
+    public var managingEditor: String? = nil
+    public var webMaster: String? = nil
+    public var generator: String? = nil
+    public var docs: String? = nil
+    public var ttl: NSNumber? = nil
     
-    var items: [RSSItem] = Array()
+    public var items: [RSSItem] = Array()
     
     public var description: String {
         return "title: \(self.title)\nfeedDescription: \(self.feedDescription)\nlink: \(self.link)\npubDate: \(self.pubDate)\nlastBuildDate: \(self.lastBuildDate)\nlanguage: \(self.language)\ncopyright: \(self.copyright)\nmanagingEditor: \(self.managingEditor)\nwebMaster: \(self.webMaster)\ngenerator: \(self.generator)\ndocs: \(self.docs)\nttl: \(self.ttl)\n\titems: \(self.items)"
