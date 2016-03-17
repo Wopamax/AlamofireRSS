@@ -78,6 +78,10 @@ public class AlamofireRSSParser: NSObject, NSXMLParserDelegate {
             if (elementName == "description") {
                 currentItem.itemDescription = self.currentString
             }
+
+            if (elementName == "content:encoded") {
+                currentItem.encodedContent = self.currentString
+            }
             
             if (elementName == "link") {
                 currentItem.link = self.currentString
